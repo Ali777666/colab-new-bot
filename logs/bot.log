@@ -1,0 +1,49 @@
+2026-02-11 11:33:01,833 - __main__ - INFO - Using WindowsSelectorEventLoopPolicy
+2026-02-11 11:33:01,848 - __main__ - INFO - Using event loop: _WindowsSelectorEventLoop
+2026-02-11 11:33:01,868 - main - INFO - Pyrogram workers=16, max_concurrent=20 (downloads use core.downloader)
+2026-02-11 11:33:01,872 - main - INFO - Using client fingerprint: device=Desktop, os=Windows 11, app=5.9.0 x64
+2026-02-11 11:33:01,872 - TechVJ.generate - INFO - ask_message response handler installed
+2026-02-11 11:33:01,872 - main - INFO - ask_message handler registered
+2026-02-11 11:33:01,976 - TechVJ.lang - INFO - Language handlers registered
+2026-02-11 11:33:01,985 - main - INFO - /lang command registered
+2026-02-11 11:33:28,801 - TechVJ.force_sub_handler - INFO - Force subscription: O'chirilgan
+2026-02-11 11:33:29,350 - TechVJ.resource_calculator - INFO - Resource calculation: CPUs=2, RAM=0.9GB, workers=8, max_concurrent=4
+2026-02-11 11:33:29,442 - TechVJ.resource_calculator_v2 - INFO - Resource calculation: 4 workers, 2 concurrent transmissions | CPU: 2, RAM: 0.9/3.8 GB
+2026-02-11 11:33:30,077 - main - INFO - Bot Started Modified By WOODcraft
+2026-02-11 11:33:35,108 - database.state_manager - INFO - StateManager initialized
+2026-02-11 11:33:35,108 - main - INFO - ✅ StateManager initialized (MongoDB + local cache)
+2026-02-11 11:33:35,183 - main - INFO - Bot running with event loop: _WindowsSelectorEventLoop
+2026-02-11 11:33:35,183 - main - INFO - Safe connection monitor started
+2026-02-11 11:33:35,191 - TechVJ.inactivity_manager - INFO - InactivityManager started (timeout=600s, interval=60s)
+2026-02-11 11:33:35,191 - main - INFO - ✅ InactivityManager initialized (timeout=600s)
+2026-02-11 11:33:35,191 - __main__ - INFO - Bot successfully started
+2026-02-11 11:34:05,288 - database.state_manager - INFO - MongoDB reconnected!
+2026-02-11 11:34:05,288 - database.state_manager - INFO - Syncing local cache to MongoDB...
+2026-02-11 11:34:05,288 - database.state_manager - INFO - No unsynced records to sync
+2026-02-11 11:36:55,008 - core.downloader.worker - INFO - WorkerPool started with 32 workers (adaptive=True)
+2026-02-11 11:36:55,008 - core.downloader.engine - INFO - DownloadEngine started (adaptive workers: 32-150)
+2026-02-11 11:36:56,230 - core.downloader.resume - INFO - Download completed: photo_100.jpg
+2026-02-11 11:36:56,262 - TechVJ.save - WARNING - Caption split error: 'utf-16-le' codec can't decode bytes in position 6-7: unexpected end of data, truncating
+2026-02-11 11:36:56,872 - TechVJ.user_queue - INFO - User 6079529182 link queued at position 1
+2026-02-11 11:36:59,742 - TechVJ.user_queue - INFO - User 6079529182 starting next queued item
+2026-02-11 11:38:42,586 - core.downloader.resume - INFO - Download completed: video3677041595.mp4
+2026-02-11 11:39:25,408 - TechVJ.user_queue - INFO - User 6079529182 link queued at position 1
+2026-02-11 11:39:48,661 - TechVJ.user_queue - INFO - User 6079529182 starting next queued item
+2026-02-11 11:44:00,766 - __main__ - INFO - Bot monitor task cancelled
+2026-02-11 11:44:00,829 - core.downloader.worker - INFO - Shutting down WorkerPool...
+2026-02-11 11:44:00,829 - TechVJ.safe_reconnect - INFO - Connection monitor stopped
+2026-02-11 11:44:00,838 - core.downloader.worker - INFO - WorkerPool shutdown complete
+2026-02-11 11:44:00,841 - core.downloader.engine - INFO - DownloadEngine shutdown complete
+2026-02-11 11:44:00,841 - main - INFO - DownloadEngine shutdown complete
+2026-02-11 11:44:00,846 - core.handler_manager - INFO - Cleared 0 handlers globally
+2026-02-11 11:44:00,846 - main - INFO - Handler manager cleanup complete
+2026-02-11 11:44:00,846 - TechVJ.cleanup_manager - INFO - Cleaned 0 resources on shutdown
+2026-02-11 11:44:00,848 - TechVJ.cleanup_manager - INFO - Cleanup completed on bot stop
+2026-02-11 11:44:00,848 - main - INFO - Cleanup manager: 0 resources cleaned
+2026-02-11 11:44:00,848 - database.state_manager - INFO - Shutting down StateManager...
+2026-02-11 11:44:00,848 - database.state_manager - INFO - Syncing local cache to MongoDB...
+2026-02-11 11:44:00,848 - database.state_manager - INFO - No unsynced records to sync
+2026-02-11 11:44:00,856 - database.state_manager - INFO - StateManager shutdown complete
+2026-02-11 11:44:00,856 - main - INFO - StateManager shutdown complete
+2026-02-11 11:44:00,856 - TechVJ.inactivity_manager - INFO - InactivityManager stopped
+2026-02-11 11:44:00,861 - main - INFO - InactivityManager shutdown complete

@@ -1,0 +1,53 @@
+# Telegram client - Pyrofork (MTProto layer >= 220)
+# MINIMUM VERSION REQUIREMENTS
+# Supports pyrofork 2.3.69+ with silent reply fallback strategy
+pyrofork>=2.3.69
+
+# CRITICAL: Must use fork-specific crypto library
+# Standard tgcrypto is FORBIDDEN - causes MTProto failures
+tgcrypto-pyrofork==1.2.8
+
+# MongoDB (session backup, banned users, critical state only)
+# UPDATED: pymongo 4.x and motor 3.x for compatibility
+pymongo[srv]>=4.6.0
+motor>=3.3.0
+dnspython>=2.0.0
+
+# Configuration management
+PyYAML>=6.0.1
+
+# Media inspection
+pymediainfo==7.0.1
+
+# CLI progress and monitoring
+rich>=13.7.0
+
+# QR code generation for login
+qrcode[pil]==7.4.2
+Pillow>=9.0.0
+
+# Async utilities
+aiofiles>=23.2.1
+aiocache>=0.12.2
+
+# System monitoring
+psutil>=5.9.8
+
+# Web framework (for health checks)
+Flask==1.1.2
+gunicorn==20.1.0
+Jinja2==3.0.3
+werkzeug==2.0.2
+itsdangerous==2.0.1
+
+# Utils
+python-decouple==3.6
+
+# FFmpeg support
+ffmpeg-python==0.2.0
+static-ffmpeg==2.7
+
+# 7-Zip support
+py7zr==0.22.0
+
+# NOTE: pyromod removed - Pyrofork has native listen() support
